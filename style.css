@@ -1,0 +1,72 @@
+@font-face {
+  font-family: Xilosa;
+  src: url('fonts/Xilosa.ttf');
+}
+
+#backSplash {
+  background-color: rgb(255, 201, 13);
+}
+#telaSplash {
+  background-image: url(imgs/telaSplash.png);
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+.backPages {
+  background-color: white;
+}
+.backHeader {
+  background-color: rgb(254, 230, 20);
+  height: 17vh;    
+}
+.backMain {
+  background-color: rgb(255, 201, 13);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  box-shadow: 0px 2px 5px rgb(167, 135, 21);
+}
+.backMainSecundaria {
+  padding-top: 2em;
+  background-color: white;
+}
+.backFooter {
+  height: 25vh;
+}
+.desenhoAriano {
+  size: 20px;
+}
+.box {
+}
+.img-box {
+  display: block;
+}
+.fw-bold {
+  font-size: 70%;
+}
+
+.text-footer {
+  font-size: 1.5em;
+  position: absolute;
+  top: -20%;
+  margin-left: 5%;
+}
+
+h1{
+  font-family: Xilosa;
+  margin-left: 15px;
+}
+.lista-mestres{
+  border:rgb(167, 135, 21) solid 1px;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 5px;  
+  text-decoration: none;
+  display: inline-block;
+  font-family: Variex;
+  font-size: 0.8em;
+  text-decoration: none;
+}
+#caixa-mestres{
+  width: 90vw; 
+  flex-wrap: wrap;
+  margin: auto;
+}
